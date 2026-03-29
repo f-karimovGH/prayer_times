@@ -12,7 +12,6 @@ def get_prayer_times():
     except:
         return None
 
-
 def update_time():
     current_time = datetime.now().strftime("%H:%M:%S")
     time_label.config(text=current_time)
